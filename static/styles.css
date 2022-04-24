@@ -205,7 +205,7 @@ h2 {
 }
 
 .trabajo_info {
-  max-width: 53%;
+  max-width: 45%;
   
   
   align-content: center;
@@ -227,6 +227,7 @@ h2 {
   width: 30vw;
   height: 38vw;
 }
+
 
 .contact {
   position: fixed;
@@ -312,7 +313,7 @@ h2 {
   }
 
   .trabajo_info {
-    max-width:120;
+    max-width:140;
     align-content: unset;
     justify-content: unset;
     display: unset;
@@ -332,17 +333,6 @@ h2 {
   }
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 /* ? ----- Cuenta Regresiva ----- */
 #cuenta {
@@ -353,11 +343,11 @@ h2 {
 
 .simply-section {
 	background: #fff;
-	width: 120px;
+	width: 40x;
 	height: 170px;
 	margin: 0 20px;
 	border-radius: 5px;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 }
@@ -369,8 +359,19 @@ h2 {
 }
 
 .simply-word {
-	font-weight: 300;
+	font-weight: 320;
 	font-size: 30px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
@@ -402,14 +403,14 @@ h2 {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   body {
     margin-bottom: 2%;
   }
 
   .foto {
     margin: 20px;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
   }
 
@@ -454,13 +455,7 @@ h2 {
     height: unset;
     max-width: 100%;
   }
-}
-@media only screen and (min-width: 600px) and (max-width: 1130px) {
-  .trabajo_box {
-    background: #a0a8a05e;
-    display: block;
-    padding-top: 1rem;
-  }
+
 
   .trabajo_box_sf {
     background: unset;
@@ -469,7 +464,7 @@ h2 {
   }
 
   .trabajo_img {
-    max-width:40;
+    max-width:35;
     align-content: unset;
     justify-content: unset;
     display: unset;
@@ -479,12 +474,12 @@ h2 {
     margin-right: unset;
     padding: 0;
   }
-
+ 
   .cuenta {
     object-fit: cover;
     overflow: hidden;
-    border-radius: 20px;
-    width: 50vw;
+    border-radius: 15px;
+    width: 25vw;
     height: 100vw;
 
 
